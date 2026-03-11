@@ -80,12 +80,12 @@ export default function Hero() {
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </span>
               </button>
-              <Link 
-                to="/listings" 
+              <button 
+                onClick={openModal}
                 className="magnetic-button border border-white/30 text-white bg-white/5 backdrop-blur-sm px-8 py-4 rounded-full font-medium tracking-wide hover:bg-white/10"
               >
                 <span>View Properties</span>
-              </Link>
+              </button>
             </div>
           </div>
         </div>
